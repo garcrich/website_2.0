@@ -1,0 +1,14 @@
+.bgimage {
+	background-image: url('../images/hero_600.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 600px;
+}
+
+.web_design {
+	background-color: red;
+}
+
+.social_media {
+	background-color: cyan;
+}
