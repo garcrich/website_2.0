@@ -16,7 +16,7 @@
 
 /*===FONTS===*/
 
-h1,h2,h3,h4,p, button {
+h1,h2,h3,h4,p, li, button {
 	font-family: proxima-nova, helvetica, open-sans;
 	color: #fff;
 }
@@ -31,15 +31,15 @@ h2 {
 	font-size: 23pt;
 }
 
-h3, h4 {
+h3, h4, li {
 	font-weight: 600;
 }
 
-h3 {
+h3, {
 	font-size: 17pt;
 }
 
-h4 {
+h4, li {
 	font-size: 15.5pt;
 }
 
@@ -107,4 +107,12 @@ button {
 	left: 0;
 	width: 80%;
 	height: 80%;
+}
+
+.content {
+	padding-top: 45px;
+}
+
+.navbar-default {
+	border: none;
 }
