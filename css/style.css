@@ -1,3 +1,44 @@
+/*
+
+=== FONT STYLES ===
+
+	font-family: proxima-nova;
+
+	Regular: 400
+
+	Semibold: 600
+
+	Bold: 700;
+
+	Black: 900;
+*/
+
+
+/*===FONTS===*/
+
+h1 {
+	font-family: proxima-nova, helvetica, open-sans;
+	font-weight: 900;
+}
+
+h2 {
+	font-family: proxima-nova, helvetica, open-sans;
+	font-weight: 700;
+}
+
+h3 {
+	font-family: proxima-nova, helvetica, open-sans;
+	font-weight: 600;
+}
+
+p {
+	font-family: proxima-nova, helvetica, open-sans;
+	font-weight: 400;
+}
+
+
+
+
 .bgimage {
 	background-image: url('../images/hero_600.jpg');
 	background-position: center center;
