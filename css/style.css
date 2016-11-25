@@ -16,29 +16,42 @@
 
 /*===FONTS===*/
 
-h1 {
+h1,h2,h3,h4,p, button {
 	font-family: proxima-nova, helvetica, open-sans;
+}
+
+h1	{
 	font-weight: 900;
+	font-size: 51.78pt;
 }
 
 h2 {
-	font-family: proxima-nova, helvetica, open-sans;
 	font-weight: 700;
+	font-size: 23pt;
 }
 
-h3 {
-	font-family: proxima-nova, helvetica, open-sans;
+h3, h4 {
 	font-weight: 600;
 }
 
-p {
-	font-family: proxima-nova, helvetica, open-sans;
-	font-weight: 400;
+h3 {
+	font-size: 17pt;
 }
 
+h4 {
+	font-size: 16pt;
+}
 
+p {
+	font-weight: 400;
+	font-size: 14pt;
+}
 
+button {
+	font-weight: 700;
+}
 
+/*=== BACKGROUND IMAGES ===*/
 .bgimage {
 	background-image: url('../images/hero_600.jpg');
 	background-position: center center;
@@ -76,4 +89,22 @@ p {
 
 .contact {
 	background-color: cyan;
+}
+
+/*===YOUTUBE VIDEO===*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	margin-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90%;
+	height: 90%;
 }
