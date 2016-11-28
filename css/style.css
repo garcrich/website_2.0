@@ -101,11 +101,7 @@ button {
 	height: 325px;
 }
 
-.ab1, .portfolio2, .social_media, .graphic_design, {
-	background-color: #fff;
-}
-
-.ab1, .ab2 {
+.ab1, .ab2, .social_media {
 	background-position: center center;
 	background-size: cover;
 }
@@ -118,10 +114,27 @@ button {
 	background-image: url('../images/about_bg2.jpg');
 }
 
-.ab2, .web_design, .portfolio, .contact {
-	background-color: #ccc;
+.social_media {
+	background-image: url('../images/social_media_bg.jpg')
 }
 
+/*WEB DESIGN*/
+
+.web-icons {
+	margin: 10px 0 20px;
+	max-height: 100px;
+}
+.web_design {
+	background-color: red;
+}
+
+.web-margin {
+	margin-top: 24px;
+}
+
+.web-p-margin {
+	margin-top: 10px;
+}
 
 /*===YOUTUBE VIDEO===*/
 
@@ -157,6 +170,7 @@ button {
 	position: relative;
 	top: -43px;
 }
+
 .navbar-default {
 	border: none;
 }
@@ -188,10 +202,23 @@ button {
 	margin-top: 37px;
 }
 
-.btn_res {
-	margin: 20px 0 20px 384px;
+.btn_res button {
+	margin: 20px 208px 20px 0;
 }
 
+.sm-icons {
+	margin: 20px 0;
+}
+
+.watermark-icon {
+	margin: 2px 0 2px;
+}
+
+.profile {
+	margin: 5px;
+	max-width: 117px;
+	border: 4px solid #54a3da;
+}
 @media only screen and (max-width: 1200px) {
 	.nps_img {
 		margin-top: 60px;
@@ -201,11 +228,18 @@ button {
 		margin-top: 43px;
 	}
 
-	.btn_res {
-		margin-left: 316px;
+	.btn_res button {
+		margin-right: 142px;
+	}
+
+	.watermark-icon {
+		max-width: 100px;
+	}
+
+	.profile {
+		display: none;
 	}
 }
-
 
 @media only screen and (max-width: 990px) {
 	/*HERO ADJUSTMENTS*/
@@ -221,8 +255,12 @@ button {
 		font-size: 40pt;
 	}
 
-	.btn_res {
-		margin-left: 241px;
+	.btn_res button {
+		margin-right: 66px;
+	}
+
+	.watermark-icon {
+		display: none;
 	}
 }
 
@@ -249,13 +287,10 @@ button {
         -ms-filter: "FlipH";
 	}
 
-	.nps_img {
-		margin-top: 0;
+	.nps_img, .ba_img {
+		margin-top: 15px;
 	}
 
-	.btn_res {
-		margin-left: 0;
-	}
 
 	.about2_mrg {
 		margin-bottom: 10px;
