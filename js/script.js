@@ -28,12 +28,4 @@ $(window).resize(function() {
         $(".about_img").addClass("pull-right").removeClass("pull-left");
         $(".btn_res").addClass("text-center");
     };
-
-    if (viewportWidth <= 992) {
-        $(".web-response").addClass("col-xs-6").removeClass("col-xs-4");
-    }
-
-    if (viewportWidth > 992) {
-       $(".web-response").removeClass("col-xs-6").addClass("col-xs-4");
-    }
  });

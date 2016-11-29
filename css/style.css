@@ -101,7 +101,7 @@ button {
 	height: 325px;
 }
 
-.ab1, .ab2, .social_media {
+.ab1, .ab2, .social_media, .web_design {
 	background-position: center center;
 	background-size: cover;
 }
@@ -118,14 +118,18 @@ button {
 	background-image: url('../images/social_media_bg.jpg')
 }
 
+.web_design {
+	background-image: url('../images/web_dev.jpg')
+}
+
+.portfolio {
+	background-color: cyan;
+}
 /*WEB DESIGN*/
 
 .web-icons {
 	margin: 10px 0 20px;
 	max-height: 100px;
-}
-.web_design {
-	background-color: red;
 }
 
 .web-margin {
@@ -188,7 +192,7 @@ button {
     margin: 0 auto;
 }
 
-/* FORMATTING MARGINS*/
+/* FORMATTING MARGINS AND PADDING*/
 
 .about_what {
 	margin-top: 20px;
@@ -219,7 +223,17 @@ button {
 	max-width: 117px;
 	border: 4px solid #54a3da;
 }
+
+.wp-max-width {
+	padding-left: 0;
+}
+
 @media only screen and (max-width: 1200px) {
+
+	.wp-max-width {
+		padding-left: 15px;
+	}
+
 	.nps_img {
 		margin-top: 60px;
 	}
@@ -262,6 +276,10 @@ button {
 	.watermark-icon {
 		display: none;
 	}
+
+	.coding-max-width {
+		margin-right: 20px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -291,8 +309,11 @@ button {
 		margin-top: 15px;
 	}
 
-
 	.about2_mrg {
 		margin-bottom: 10px;
+	}
+
+	.web-icons {
+		display: none;
 	}
 }
