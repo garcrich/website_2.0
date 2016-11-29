@@ -89,6 +89,10 @@ p {
 	line-height: 18pt;
 }
 
+.phone-text {
+	font-size: 14pt;
+}
+
 button {
 	font-weight: 700;
 }
@@ -101,7 +105,7 @@ button {
 	height: 325px;
 }
 
-.ab1, .ab2, .social_media, .web_design {
+.ab1, .ab2, .social_media, .web_design, .portfolio, .contact {
 	background-position: center center;
 	background-size: cover;
 }
@@ -123,22 +127,16 @@ button {
 }
 
 .portfolio {
-	background-color: cyan;
+	background-image: url('../images/portfolio.jpg');
 }
+
+.contact {
+	background-image: url('../images/contact_me.jpg');
+}
+
 /*WEB DESIGN*/
 
-.web-icons {
-	margin: 10px 0 20px;
-	max-height: 100px;
-}
 
-.web-margin {
-	margin-top: 24px;
-}
-
-.web-p-margin {
-	margin-top: 10px;
-}
 
 /*===YOUTUBE VIDEO===*/
 
@@ -180,7 +178,7 @@ button {
 }
 
 .port-btn {
-	margin-left: 33px;
+	margin: 0 0 20px 15px;
 }
 
 .btn-sl {
@@ -228,6 +226,39 @@ button {
 	padding-left: 0;
 }
 
+.social-margin  {
+	margin-top: 85px;
+}
+
+.fb-video-margin {
+	margin-top: 53px;
+}
+
+.contact {
+	padding-bottom: 25px;
+}
+
+.ab2 {
+	padding-top: 10px;
+}
+
+.web-icons {
+	margin: 10px 0 20px;
+	max-height: 100px;
+}
+
+.web-margin {
+	margin-top: 24px;
+}
+
+.web-p-margin {
+	margin-top: 20px;
+}
+
+.sm-icons {
+	margin-top: 35px;
+}
+
 @media only screen and (max-width: 1200px) {
 
 	.wp-max-width {
@@ -252,6 +283,14 @@ button {
 
 	.profile {
 		display: none;
+	}
+
+	.fb-video-margin {
+		margin-top: 97px;
+	}
+
+	.sm-icons {
+		margin-top: 35px;
 	}
 }
 
@@ -279,6 +318,23 @@ button {
 
 	.coding-max-width {
 		margin-right: 20px;
+	}
+
+	.fb-video-margin {
+		margin: 0 0 25px 0;
+	}
+
+	.social-margin {
+		margin-top: 21px;
+	}
+
+	.port-btn {
+		margin: 0 0 20px 15px;
+		padding: 10px 60px;
+	}
+
+	.sm-icons {
+		margin-top: 13px;
 	}
 }
 
@@ -310,10 +366,24 @@ button {
 	}
 
 	.about2_mrg {
-		margin-bottom: 10px;
+		margin: 25px 0 10px;
 	}
 
 	.web-icons {
 		display: none;
 	}
+
+	.fb-video-margin {
+		margin: 0;
+	}
+
+	.port-btn {
+		margin-top: 0;
+		padding: 10px 50px;
+	}
+
+	.sm-icons {
+		max-width: 345px;
+	}
+
 }
