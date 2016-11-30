@@ -6,9 +6,7 @@ $(document).ready(function() {
     if (viewportWidth <= 767) {
         $(".about_img").removeClass("pull-right").addClass("pull-left");
         $(".btn_res").removeClass("text-center").addClass("pull-left");
-    };
-
-    if (viewportWidth > 767) {
+    } else if (viewportWidth > 767) {
         $(".about_img").addClass("pull-right").removeClass("pull-left");
         $(".btn_res").addClass("text-center");
     };
@@ -22,9 +20,7 @@ $(window).resize(function() {
     if (viewportWidth <= 767) {
         $(".about_img").removeClass("pull-right").addClass("pull-left");
         $(".btn_res").removeClass("text-center").css("margin", 0);
-    };
-
-    if (viewportWidth > 767) {
+    } else if (viewportWidth > 767) {
         $(".about_img").addClass("pull-right").removeClass("pull-left");
         $(".btn_res").addClass("text-center");
     };
