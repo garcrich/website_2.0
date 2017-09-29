@@ -1,10 +1,6 @@
 #Portfolio Website 2.0
 The objective was to improve my current website. I have learned more about Design, Adobe CC, writing copy, and UX since my last website.
 
-#Access Website
-
-Type www.builtbyricky.com to access online website
-
 #How It Was Created
 
 ##1. Copywriting
